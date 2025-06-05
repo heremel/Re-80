@@ -1,0 +1,130 @@
+.manwalk {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10; /* optionnel, si tu veux qu'elle soit devant le reste */
+}
+
+.manwalk-img{
+	width: 120px;
+  height: auto;
+  transition: width 0.4s ease-in-out;
+}
+
+.manwalk-button{
+  background: transparent;
+  border: none;
+  :hover{
+    width: 150px;
+    cursor: pointer;
+  }
+  :active{
+    transform: scale(0.9);
+  }
+}
+
+.user{
+  display: flex;
+  justify-content: center;
+}
+
+.user-icon{
+  width: 350px;
+  object-fit: contain;
+}
+
+.h1-div{
+  display: flex;
+  justify-content: center;
+  position:absolute;
+  bottom: 32px;
+}
+
+.main-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.screen-div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+  font-family: 'Jersey 10';
+   letter-spacing: 3px;
+   color: var(--purple-color);
+}
+
+.kitty-cat-button{
+  position: absolute;
+  top: -30px;
+  left: 25px;
+  background: transparent;
+  border: none;
+  :hover{
+    
+    cursor: pointer;
+  }
+  :active{
+    transform: scale(0.9);
+  }
+}
+
+.kitty-cat{
+  width: 75px;
+}
+
+.buttons{
+  background-color: var(--purple-color);
+  color: var(--text-color);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  border-color: var(--text-color);
+  transition: 
+  background-color 0.3s ease, 
+  box-shadow 0.3s ease, 
+  transform 0.1s ease,
+  padding 0.4s ease-in-out; /* for smooth size change */
+}
+
+.buttons:hover {
+  background-color: #6220d4; /* lighter purple */
+  box-shadow: 0 6px 12px rgba(98, 32, 212, 0.7);
+  padding: 8px 16px; /* increase padding to “grow” the button */
+}
+
+
+.buttons:active {
+  background-color: var(--lighter-purple);
+  box-shadow: 0 2px 4px rgba(110, 51, 214, 0.6);
+  transform: translateY(2px);
+}
+
+.buttons-div{
+  display: flex;
+  position: fixed;
+  top: 0;
+  gap: 20px;
+  left: 0;
+  margin: 10px 0 0 10px;
+  z-index: 10;
+}
+
+.home-icon-div{
+  display: flex;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.home-icon{
+  width: 80px;
+}

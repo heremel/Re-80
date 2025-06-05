@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+:root{
+  --purple-color: #5211ba;
+  --text-color: whitesmoke;
+  --lighter-purple: #6e33d6;
+}
+
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
-
+body{
+  background-image: url('src/assets/pictures/background.svg');
+  background-size: cover;
+  height: 100vh;
+}

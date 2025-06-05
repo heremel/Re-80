@@ -1,10 +1,9 @@
-import "./App.css";
-import HomeDisplay from "./pages/Home";
+import HomeDisplay from "./pages/Home/Home";
 
 function App() {
   return (
     <>
-      <HomeDisplay/>
+      <HomeDisplay />
     </>
   );
 }
