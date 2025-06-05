@@ -1,0 +1,11 @@
+.manwalk {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10; /* optionnel, si tu veux qu'elle soit devant le reste */
+}
+
+.manwalk-img{
+	width: 50px;
+  height: auto;
+}
