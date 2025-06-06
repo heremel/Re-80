@@ -1,0 +1,60 @@
+.screen-div{
+	height: 100vh;
+	background: url('src/assets/pictures/roompagebg.svg');
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.screen-div-room{
+	position: relative;
+}
+
+.pictures-batch{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.first-batch{
+	width: 300px;
+	margin-top: -14px;
+}
+
+.second-batch{
+	width: 300px;
+	margin-top: -14px;
+	margin-left: -8px;
+	margin-right: -10px;
+}
+
+.third-batch{
+	width:300px;
+	margin-top: -6px;
+	margin-right: -6px;
+}
+
+.fourth-batch{
+	width: 300px;
+	margin-top: -4px;
+	margin-right: -6px;
+}
+
+.last-batch{
+	width: 300px;
+	margin-top: -2px;
+}
+
+.video-roller{
+	height: 100%;
+	width: auto;
+}
+
+.television-container{
+	perspective: 800px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 0;
+}
+
