@@ -1,0 +1,5 @@
+.screen-div{
+	height: 100vh;
+	background: url('src/assets/pictures/roompagebg.svg');
+	object-fit: cover;
+}

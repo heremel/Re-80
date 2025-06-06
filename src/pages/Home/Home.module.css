@@ -1,3 +1,10 @@
+body{
+  background-image: url('src/assets/pictures/background.svg');
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
 .manwalk {
   position: fixed;
   bottom: 0;
