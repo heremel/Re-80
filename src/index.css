@@ -4,6 +4,13 @@
   --purple-color: #5211ba;
   --text-color: whitesmoke;
   --lighter-purple: #6e33d6;
+  --modalbackground: #ffd6f2;
+  --bordermodal: #ffbbea;
+}
+
+body{
+  font-family: 'Jersey 10', sans-serif;
+  letter-spacing: 3px;
 }
 
 *{

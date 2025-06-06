@@ -5,6 +5,18 @@ body{
   background-repeat: no-repeat;
 }
 
+.overlay{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
 .manwalk {
   position: fixed;
   bottom: 0;
@@ -63,8 +75,6 @@ body{
 }
 
 h1{
-  font-family: 'Jersey 10';
-   letter-spacing: 3px;
    color: var(--purple-color);
 }
 
@@ -102,7 +112,7 @@ h1{
 }
 
 .buttons:hover {
-  background-color: #6220d4; /* lighter purple */
+  background-color: var(--lighter-purple);
   box-shadow: 0 6px 12px rgba(98, 32, 212, 0.7);
   padding: 8px 16px; /* increase padding to “grow” the button */
 }
